@@ -1,0 +1,31 @@
+@import url(./__title/cover__title.css);
+@import url(./__subtitle/cover__subtitle.css);
+@import url(./__overlay/cover__overlay.css);
+
+
+.cover {
+  max-width: 1184px;
+  margin: 0 auto 134px;
+  background-image: url(../../images/cover__background.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+}
+/* для 1024 */
+@media all and (max-width: 1024px) {
+  .cover {
+    margin: 0 auto 92px;
+    }
+}
+/* для 768 */
+@media all and (max-width: 768px) {
+  .cover {
+    margin: 0 auto 88px;
+    }
+}
+/* для 320 */
+@media all and (max-width: 320px) {
+  .cover {
+    margin: 0 auto 64px;
+    }
+}
+

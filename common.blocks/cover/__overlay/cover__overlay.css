@@ -1,0 +1,35 @@
+.cover__overlay {
+  width: 100%;
+  height: 100%;
+  display: block;
+  padding-top: 245px;
+  padding-bottom: 245px;
+  background: rgba(42,44,47,0.3);
+  text-decoration: none;
+}
+
+.cover__overlay:hover {
+  background: rgba(42,44,47,0.8);
+}
+
+/* для 1024 */
+@media all and (max-width: 1024px) {
+  .cover__overlay {
+    padding-top: 195px;
+    padding-bottom: 195px;
+    }
+}
+/* для 768 */
+@media all and (max-width: 768px) {
+  .cover__overlay {
+    padding-top: 115px;
+    padding-bottom: 115px;
+    }
+}
+/* для 320 */
+@media all and (max-width: 320px) {
+  .cover__overlay {
+    padding-top: 33px;
+    padding-bottom: 33px;
+    }
+}

@@ -1,0 +1,29 @@
+@import url(./__item/foto-grid__item.css);
+
+.photo-grid {
+  max-width: 1184px;
+  margin: 0 48px 92px;
+  display: grid;
+  grid-gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+}
+/* для 1024 */
+@media all and (max-width: 1024px) {
+  .photo-grid {
+    grid-gap: 14px;
+    }
+}
+/* для 768 */
+@media all and (max-width: 768px) {
+  .photo-grid {
+    grid-gap: 16px;
+    margin: 0 24px 88px;
+    }
+}
+/* для 320 */
+@media all and (max-width: 650px) {
+  .photo-grid {
+    grid-gap: 12px;
+    margin: 0 16px 64px;
+    }
+}

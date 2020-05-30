@@ -1,0 +1,33 @@
+@import url(./__title/place__title.css);
+@import url(./__image/place__image.css);
+@import url(../website/website.css);
+@import url(./__paragraph/place__paragraph.css);
+
+.place {
+  display: grid;
+  grid-column-gap: 4%;
+  grid-row-gap: 48px;
+  grid-template-columns: 47% 49% ;
+  margin-bottom: 80px;
+}
+
+/* для 1024 */
+@media all and (max-width: 1024px) {
+  .place {
+    
+    }
+}
+/* для 768 */
+@media all and (max-width: 768px) {
+  .place {
+    margin-bottom: 72px;
+    }
+}
+/* для 320 */
+@media all and (max-width: 320px) {
+  .place {
+    grid-gap: 32px;
+    grid-template-columns: 100%;
+    margin-bottom: 48px;
+    }
+}

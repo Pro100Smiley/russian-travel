@@ -1,0 +1,25 @@
+@import url(../place/place.css);
+
+.places {
+  max-width: 984px;
+  margin: 0 auto 92px;
+}
+
+/* для 1024 */
+@media all and (max-width: 1024px) {
+  .places {
+    margin: 0 48px 92px;
+    }
+}
+/* для 768 */
+@media all and (max-width: 768px) {
+  .places {
+    margin: 0 24px 88px;
+    }
+}
+/* для 320 */
+@media all and (max-width: 320px) {
+  .places {
+    margin: 0 16px 64px;
+    }
+}
