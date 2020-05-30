@@ -1,7 +1,7 @@
 # Проект 3: Путешествие по России
 
 
-* [Ссылка на проект](https://www.)
+* [Ссылка на проект](https://pro100smiley.github.io/russian-travel/index.html)
 
 **Интро**
 
