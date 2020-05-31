@@ -8,8 +8,8 @@
   color: #ffffff;
   z-index: 1;
 }
-/* для 320 */
-@media all and (max-width: 320px) {
+
+@media all and (max-width: 650px) {
   .cover__title {
     max-width: 288px;
     margin: 0 auto 16px;

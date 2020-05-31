@@ -17,7 +17,6 @@
     margin: 0 24px 24px;
     }
 }
-/* для 320 */
 @media all and (max-width: 650px) {
   .footer {
     flex-direction: column;

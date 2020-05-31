@@ -13,7 +13,7 @@
     }
 }
 /* для 320 */
-@media all and (max-width: 320px) {
+@media all and (max-width: 650px) {
   .place__title {
     font-size: 32px;
     line-height: 35px;

@@ -1,6 +1,8 @@
 @import url(./__title/place__title.css);
 @import url(./__image/place__image.css);
-@import url(../website/website.css);
+@import url(./__website/place__website.css);
+@import url(./__website-heading/place__website-heading.css);
+@import url(./__website-link/place__website-link.css);
 @import url(./__paragraph/place__paragraph.css);
 
 .place {
@@ -10,21 +12,14 @@
   grid-template-columns: 47% 49% ;
   margin-bottom: 80px;
 }
-
-/* для 1024 */
-@media all and (max-width: 1024px) {
-  .place {
-    
-    }
-}
 /* для 768 */
-@media all and (max-width: 768px) {
+@media all and (max-width: 800px) {
   .place {
     margin-bottom: 72px;
     }
 }
 /* для 320 */
-@media all and (max-width: 320px) {
+@media all and (max-width: 610px) {
   .place {
     grid-gap: 32px;
     grid-template-columns: 100%;

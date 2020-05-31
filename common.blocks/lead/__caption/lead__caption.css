@@ -6,3 +6,15 @@
   letter-spacing: 0.15em;
   text-transform: uppercase;
 }
+
+@media all and (max-width: 768px) {
+  .lead__caption {
+    margin-left: 24px;
+    }
+}
+
+@media all and (max-width: 650px) {
+  .lead {
+    margin-left: 16px;
+    }
+}

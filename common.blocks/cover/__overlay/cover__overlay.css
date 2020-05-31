@@ -10,6 +10,11 @@
 
 .cover__overlay:hover {
   background: rgba(42,44,47,0.8);
+  transition:ease-in 1s;
+  -moz-transition:ease-in 1s;
+  -ms-transition:ease-in 1s;
+  -o-transition:ease-in 1s;
+  -webkit-transition:ease-in 1s;
 }
 
 /* для 1024 */
@@ -26,7 +31,7 @@
     padding-bottom: 115px;
     }
 }
-/* для 320 */
+
 @media all and (max-width: 320px) {
   .cover__overlay {
     padding-top: 33px;

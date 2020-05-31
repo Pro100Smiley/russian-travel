@@ -10,14 +10,12 @@
   background-position: 50% 50%;
   background-size: cover;
 }
-/* для 768 */
 @media all and (max-width: 768px) {
   .cover {
     margin: 0 auto 88px;
     }
 }
-/* для 320 */
-@media all and (max-width: 320px) {
+@media all and (max-width: 400px) {
   .cover {
     margin: 0 auto 64px;
     }

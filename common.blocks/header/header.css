@@ -4,25 +4,25 @@
 @import url(./__lang-link/_active/header__lang-link_active.css);
 
 .header {
-max-width: 1280px;  
+max-width: 1184px;  
 margin: 28px 48px 56px;
 display: flex;
 justify-content: space-between;
 }
-/* для 1024 */
-@media all and (max-width: 1024px) {
+
+@media all and (max-width: 1080px) {
   .header {
+    
     margin: 28px 48px 48px;
     }
 }
-/* для 768 */
-@media all and (max-width: 768px) {
+@media all and (max-width: 800px) {
   .header {
     margin: 28px 24px 48px;
     }
 }
-/* для 320 */
-@media all and (max-width: 320px) {
+
+@media all and (max-width: 650px) {
   .header {
     margin: 16px 16px 48px;
     }
