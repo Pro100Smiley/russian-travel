@@ -3,7 +3,7 @@
 }
 
 @media all and (max-width: 650px) {
-  .website {
+  .place__website {
     display: none;
     }
 }
